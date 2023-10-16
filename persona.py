@@ -1,5 +1,5 @@
 class Persona():
-    def __init__(self, nombre="Daniel", edad=15, altura=1.65, sexo="M"):
+    def __init__(self, nombre, edad, altura, sexo):
         self.nombre=nombre
         self.edad=edad
         self.altura=altura
